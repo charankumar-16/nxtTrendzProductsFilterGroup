@@ -1,0 +1,94 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  background-color: #f1f5f9;
+  border: 0px solid none;
+  outline: none;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.search-input {
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+  height: 30px;
+  border-width: 0px;
+  background-color: #f1f5f9;
+  outline: none;
+}
+
+.search-icon {
+  margin: auto;
+  height: 20px;
+  width: 20px;
+}
+
+.category {
+  color: #12022f;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-bottom: 25px;
+}
+.category-item {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rating-img {
+  width: 60%;
+}
+.up {
+  margin: auto;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 14px;
+  color: #64748b;
+}
+
+.rating-img-container {
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.btn {
+  color: #0967d2;
+  border: 3px solid #0967d2;
+  background-color: transparent;
+  height: 30px;
+  font-family: 'Roboto';
+  margin-top: 30px;
+  font-size: 18px;
+  width: 140px;
+  align-self: flex-start;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Active-cat {
+  color: #0967d2;
+}
